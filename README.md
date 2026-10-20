@@ -107,7 +107,7 @@ A ferramenta executa os seguintes modulos de auditoria:
 ### Opcao 1 — Download do script (recomendado)
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/<SEU_USUARIO>/pablocybersec-linux-privesc/main/pcsec-privesc.sh" -o pcsec-privesc.sh
+curl -fsSL "https://raw.githubusercontent.com/Deepaudit/pablocybersec-linux-privesc/main/pcsec-privesc.sh" -o pcsec-privesc.sh
 chmod +x pcsec-privesc.sh
 ./pcsec-privesc.sh --help
 ```
@@ -121,7 +121,7 @@ Para obter o projeto completo (com todos os modulos em `modules/`), clone o
 repositorio:
 
 ```bash
-git clone https://github.com/<SEU_USUARIO>/pablocybersec-linux-privesc.git
+git clone https://github.com/Deepaudit/pablocybersec-linux-privesc.git
 cd pablocybersec-linux-privesc
 chmod +x pcsec-privesc.sh
 ./pcsec-privesc.sh --full
@@ -140,7 +140,7 @@ sha256sum pcsec-privesc.sh     # compare com um hash publicado, se disponivel
 ### Opcao 2 — Execucao via pipe para o Bash (nao recomendada sem inspecao previa)
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/<SEU_USUARIO>/pablocybersec-linux-privesc/main/pcsec-privesc.sh" | bash
+curl -fsSL "https://raw.githubusercontent.com/Deepaudit/pablocybersec-linux-privesc/main/pcsec-privesc.sh" | bash
 ```
 
 ⚠️ **Executar codigo baixado diretamente via pipe para o Bash, sem inspecionar
