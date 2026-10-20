@@ -270,8 +270,6 @@ pablocybersec-linux-privesc/
 │   ├── cron_audit.sh
 │   ├── permission_audit.sh
 │   └── kernel_audit.sh
-└── tests/
-    └── test_basic.sh
 ```
 
 O script principal verifica a existencia de cada modulo antes de carrega-lo;
