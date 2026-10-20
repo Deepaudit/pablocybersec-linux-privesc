@@ -1,0 +1,17 @@
+# Relatorios gerados pela ferramenta (contem dados do sistema auditado)
+pcsec-reports/
+*.pcsec-report.*
+pcsec-privesc-report-*.txt
+pcsec-privesc-report-*.json
+
+# Diretorios temporarios de teste
+/tmp-test-output/
+
+# Arquivos de backup/editor
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs diversos
+*.log
